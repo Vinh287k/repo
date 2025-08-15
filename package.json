@@ -1,0 +1,16 @@
+{
+  "name": "discord-proxy-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for fetching and testing proxies",
+  "main": "je.js",
+  "scripts": {
+    "start": "node je.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "discord.js": "^14.14.1",
+    "express": "^4.19.2",
+    "https-proxy-agent": "^7.0.2",
+    "node-fetch": "^2.6.12"
+  }
+}
